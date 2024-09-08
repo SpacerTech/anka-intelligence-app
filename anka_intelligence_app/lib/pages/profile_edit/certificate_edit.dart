@@ -1,19 +1,23 @@
 import 'dart:io';
 
-import 'package:flutter/material.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_state.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/edit_button.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/edit_card.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/edit_textfield.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:open_file/open_file.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_event.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_state.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/models/user_model.dart';
-import 'package:tobeto_app/models/user_profile_model/certificate_model.dart';
-import 'package:tobeto_app/pages/profile_edit/edit_button.dart';
-import 'package:tobeto_app/pages/profile_edit/edit_card.dart';
-import 'package:tobeto_app/pages/profile_edit/edit_textfield.dart';
+
+import '../../api/blocs/profile_bloc/profile_bloc.dart';
+import '../../api/blocs/profile_bloc/profile_event.dart';
+import '../../models/user_model.dart';
+import '../../models/user_profile_model/certificate_model.dart';
+
+
+
 
 class CertificateEdit extends StatefulWidget {
   const CertificateEdit({Key? key}) : super(key: key);

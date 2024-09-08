@@ -1,7 +1,8 @@
+import 'package:anka_intelligence_app/models/course_model.dart';
+import 'package:anka_intelligence_app/pages/course/course_details_about.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:tobeto_app/models/course_model.dart';
-import 'package:tobeto_app/pages/course/course_details_about.dart';
+
 
 class CourseAbout extends StatelessWidget {
   const CourseAbout({super.key, required this.course});

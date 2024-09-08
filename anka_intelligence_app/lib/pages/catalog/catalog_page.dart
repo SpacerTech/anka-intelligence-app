@@ -1,15 +1,16 @@
+import 'package:anka_intelligence_app/api/blocs/catalog_bloc/catalog_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/catalog_bloc/catalog_event.dart';
+import 'package:anka_intelligence_app/api/blocs/catalog_bloc/catalog_state.dart';
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/core/drawer/my_advanced_drawer.dart';
+import 'package:anka_intelligence_app/core/drawer/my_appbar.dart';
+import 'package:anka_intelligence_app/core/drawer/my_drawer.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/pages/catalog/catalog_course_filter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/catalog_bloc/catalog_bloc.dart';
-import 'package:tobeto_app/api/blocs/catalog_bloc/catalog_event.dart';
-import 'package:tobeto_app/api/blocs/catalog_bloc/catalog_state.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/core/drawer/my_advanced_drawer.dart';
-import 'package:tobeto_app/core/drawer/my_appbar.dart';
-import 'package:tobeto_app/core/drawer/my_drawer.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/pages/catalog/catalog_course_filter.dart';
+
 
 class CatalogPage extends StatelessWidget {
   const CatalogPage({Key? key}) : super(key: key);

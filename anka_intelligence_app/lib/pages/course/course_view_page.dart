@@ -1,10 +1,11 @@
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_event.dart';
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_state.dart';
+import 'package:anka_intelligence_app/models/course_model.dart';
+import 'package:anka_intelligence_app/pages/course/course_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_bloc.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_event.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_state.dart';
-import 'package:tobeto_app/models/course_model.dart';
-import 'package:tobeto_app/pages/course/course_page.dart';
+
 
 class CourseViewPage extends StatelessWidget {
   const CourseViewPage({Key? key}) : super(key: key);

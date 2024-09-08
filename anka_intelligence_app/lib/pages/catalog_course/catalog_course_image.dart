@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/core/widget/neu_box.dart';
+import 'package:anka_intelligence_app/models/catalog_course_model.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/neu_box.dart';
-import 'package:tobeto_app/models/catalog_course_model.dart';
+
 
 class CatalogCourseImage extends StatelessWidget {
   const CatalogCourseImage({Key? key, required this.catalogCourse})

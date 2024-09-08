@@ -1,5 +1,6 @@
+import 'package:anka_intelligence_app/pages/forgot/forgot_form.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/pages/forgot/forgot_form.dart';
+
 
 class ForgotPasswordPage extends StatelessWidget {
   ForgotPasswordPage({Key? key}) : super(key: key);

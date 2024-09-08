@@ -1,11 +1,11 @@
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/core/widget/neu_box.dart';
+import 'package:anka_intelligence_app/core/widget/progress_bar_animation.dart';
+import 'package:anka_intelligence_app/models/catalog_course_model.dart';
+import 'package:anka_intelligence_app/pages/catalog_course/catalog_course_image.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/core/widget/neu_box.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/models/catalog_course_model.dart';
-import 'package:tobeto_app/pages/catalog_course/catalog_course_image.dart';
-import 'package:tobeto_app/core/widget/progress_bar_animation.dart';
 
 class CatalogCoursePage extends StatelessWidget {
   const CatalogCoursePage({Key? key, required this.catalogCourse})

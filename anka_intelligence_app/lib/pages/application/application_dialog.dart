@@ -1,10 +1,11 @@
+import 'package:anka_intelligence_app/api/blocs/application_bloc/application_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/application_bloc/application_event.dart';
+import 'package:anka_intelligence_app/api/blocs/application_bloc/application_state.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/models/application_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/application_bloc/application_bloc.dart';
-import 'package:tobeto_app/api/blocs/application_bloc/application_event.dart';
-import 'package:tobeto_app/api/blocs/application_bloc/application_state.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/models/application_model.dart';
+
 
 class ApplicationDialog extends StatelessWidget {
   const ApplicationDialog({Key? key}) : super(key: key);

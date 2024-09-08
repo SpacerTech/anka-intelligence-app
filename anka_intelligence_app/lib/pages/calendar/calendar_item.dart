@@ -1,5 +1,6 @@
+import 'package:anka_intelligence_app/models/classes_model.dart';
 import 'package:flutter_neat_and_clean_calendar/neat_and_clean_calendar_event.dart';
-import 'package:tobeto_app/models/classes_model.dart';
+
 
 class EventsData {
   List<NeatCleanCalendarEvent> events = [];

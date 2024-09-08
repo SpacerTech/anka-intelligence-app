@@ -1,6 +1,6 @@
+import 'package:anka_intelligence_app/pages/login/login_page.dart';
+import 'package:anka_intelligence_app/pages/register/register_page.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/pages/login/login_page.dart';
-import 'package:tobeto_app/pages/register/register_page.dart';
 
 class LoginOrRegister extends StatefulWidget {
   const LoginOrRegister({Key? key}) : super(key: key);

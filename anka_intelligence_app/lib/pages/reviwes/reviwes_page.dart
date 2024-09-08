@@ -1,8 +1,9 @@
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/models/revist_model.dart';
+import 'package:anka_intelligence_app/pages/reviwes/reviwes_list.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/pages/reviwes/reviwes_list.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/models/revist_model.dart';
+
 import 'package:url_launcher/url_launcher.dart';
 
 class RevisterPage extends StatelessWidget {

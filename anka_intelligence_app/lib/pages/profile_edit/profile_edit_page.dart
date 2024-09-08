@@ -1,16 +1,18 @@
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/core/widget/top_bar_widget_interval.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/certificate_edit.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/competence_edit.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/education_edit.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/password_edit.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/person_edit.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/social_edit.dart';
+import 'package:anka_intelligence_app/pages/profile_edit/work_edit.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/core/widget/top_bar_widget_interval.dart';
-import 'package:tobeto_app/pages/profile_edit/certificate_edit.dart';
-import 'package:tobeto_app/pages/profile_edit/competence_edit.dart';
-import 'package:tobeto_app/pages/profile_edit/education_edit.dart';
-import 'package:tobeto_app/pages/profile_edit/foreign_language_edit.dart';
-import 'package:tobeto_app/pages/profile_edit/password_edit.dart';
-import 'package:tobeto_app/pages/profile_edit/person_edit.dart';
-import 'package:tobeto_app/pages/profile_edit/social_edit.dart';
-import 'package:tobeto_app/pages/profile_edit/work_edit.dart';
+
+import 'foreign_language_edit.dart';
+
 
 class ProfileEditPage extends StatelessWidget {
   const ProfileEditPage({Key? key}) : super(key: key);

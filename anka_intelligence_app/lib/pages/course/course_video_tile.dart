@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/models/course_model.dart';
 import 'package:flutter/material.dart';
 
-import 'package:tobeto_app/models/course_model.dart';
+
 
 class CourseListTile extends StatelessWidget {
   const CourseListTile({

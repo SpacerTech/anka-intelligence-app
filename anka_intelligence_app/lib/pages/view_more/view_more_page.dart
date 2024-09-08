@@ -1,13 +1,14 @@
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_event.dart';
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_state.dart';
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/core/widget/top_bar_widget_interval.dart';
+import 'package:anka_intelligence_app/pages/view_more/course_list_filter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_bloc.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_event.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_state.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/core/widget/top_bar_widget_interval.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/pages/view_more/course_list_filter.dart';
+
 
 class ViewMorePage extends StatelessWidget {
   const ViewMorePage({Key? key}) : super(key: key);

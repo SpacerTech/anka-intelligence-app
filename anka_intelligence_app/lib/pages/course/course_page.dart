@@ -1,15 +1,16 @@
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/core/widget/lottie_button.dart';
+import 'package:anka_intelligence_app/core/widget/neu_box.dart';
+import 'package:anka_intelligence_app/core/widget/progress_bar_animation.dart';
+import 'package:anka_intelligence_app/models/course_model.dart';
+import 'package:anka_intelligence_app/pages/course/course_about.dart';
+import 'package:anka_intelligence_app/pages/course/course_video_tile.dart';
+import 'package:anka_intelligence_app/pages/course/video_player.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/core/widget/lottie_button.dart';
-import 'package:tobeto_app/core/widget/neu_box.dart';
-import 'package:tobeto_app/core/widget/progress_bar_animation.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/models/course_model.dart';
-import 'package:tobeto_app/pages/course/course_about.dart';
-import 'package:tobeto_app/pages/course/course_video_tile.dart';
-import 'package:tobeto_app/pages/course/video_player.dart';
+
 
 class CoursePage extends StatefulWidget {
   const CoursePage({Key? key, required this.course}) : super(key: key);

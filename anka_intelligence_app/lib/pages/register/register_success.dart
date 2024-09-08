@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/core/widget/my_dialog_button.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/my_dialog_button.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
+
 
 class MyDialogSuccess extends StatelessWidget {
   final String title;

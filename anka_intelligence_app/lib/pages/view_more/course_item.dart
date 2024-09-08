@@ -1,7 +1,8 @@
+import 'package:anka_intelligence_app/constant/theme/color.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/models/course_model.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/color.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/models/course_model.dart';
+
 
 class CourseItem extends StatefulWidget {
   const CourseItem({

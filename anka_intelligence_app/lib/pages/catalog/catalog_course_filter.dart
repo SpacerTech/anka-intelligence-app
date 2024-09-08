@@ -1,9 +1,10 @@
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/core/widget/textfield_filter.dart';
+import 'package:anka_intelligence_app/models/catalog_course_model.dart';
+import 'package:anka_intelligence_app/pages/catalog/catalog_course_item.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/models/catalog_course_model.dart';
-import 'package:tobeto_app/core/widget/textfield_filter.dart';
-import 'package:tobeto_app/pages/catalog/catalog_course_item.dart';
+
 
 class CatalogCourseFilter extends StatefulWidget {
   const CatalogCourseFilter({Key? key, required this.catalog})

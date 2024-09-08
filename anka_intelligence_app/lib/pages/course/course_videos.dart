@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/models/course_model.dart';
+import 'package:anka_intelligence_app/pages/course/course_video_tile.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/models/course_model.dart';
-import 'package:tobeto_app/pages/course/course_video_tile.dart';
+
 
 class CourseVideos extends StatefulWidget {
   const CourseVideos({Key? key, required this.course}) : super(key: key);

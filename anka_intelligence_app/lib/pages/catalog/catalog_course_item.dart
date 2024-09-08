@@ -1,7 +1,8 @@
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/core/widget/neu_box.dart';
+import 'package:anka_intelligence_app/models/catalog_course_model.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/neu_box.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/models/catalog_course_model.dart';
+
 
 class CatalogCourseItem extends StatefulWidget {
   const CatalogCourseItem({

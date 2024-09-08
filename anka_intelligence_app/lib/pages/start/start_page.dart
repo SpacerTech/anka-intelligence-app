@@ -1,12 +1,12 @@
+import 'package:anka_intelligence_app/api/blocs/auth_bloc/auth_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/auth_bloc/auth_state.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_event.dart';
+import 'package:anka_intelligence_app/core/widget/snackbar_widget.dart';
+import 'package:anka_intelligence_app/pages/register/register_success.dart';
+import 'package:anka_intelligence_app/pages/start/login_or_register.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/auth_bloc/auth_bloc.dart';
-import 'package:tobeto_app/api/blocs/auth_bloc/auth_state.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_event.dart';
-import 'package:tobeto_app/core/widget/snackbar_widget.dart';
-import 'package:tobeto_app/pages/register/register_success.dart';
-import 'package:tobeto_app/pages/start/login_or_register.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({Key? key}) : super(key: key);

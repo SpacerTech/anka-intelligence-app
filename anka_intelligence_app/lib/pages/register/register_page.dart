@@ -1,8 +1,9 @@
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/core/widget/now_bottom.dart';
+import 'package:anka_intelligence_app/pages/register/register_form.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/now_bottom.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/pages/register/register_form.dart';
+
 
 class RegisterPage extends StatelessWidget {
   RegisterPage({Key? key, this.onTap}) : super(key: key);

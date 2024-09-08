@@ -1,9 +1,10 @@
+import 'package:anka_intelligence_app/data/onboard_data.dart';
+import 'package:anka_intelligence_app/pages/onboard/onboard_page.dart';
+import 'package:anka_intelligence_app/pages/start/start_page.dart';
 import 'package:concentric_transition/concentric_transition.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tobeto_app/data/onboard_data.dart';
-import 'package:tobeto_app/pages/onboard/onboard_page.dart';
-import 'package:tobeto_app/pages/start/start_page.dart';
+
 
 class OnboardingAnimation extends StatelessWidget {
   OnboardingAnimation({Key? key}) : super(key: key);

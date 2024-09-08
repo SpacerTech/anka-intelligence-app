@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/constant/theme/color.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/color.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
+
 
 class CourseDetailsAbout extends StatelessWidget {
   final IconData icon;

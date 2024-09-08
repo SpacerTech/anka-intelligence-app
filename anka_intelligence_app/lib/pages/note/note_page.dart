@@ -1,16 +1,17 @@
+import 'package:anka_intelligence_app/api/blocs/note_bloc/note_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/note_bloc/note_event.dart';
+import 'package:anka_intelligence_app/api/blocs/note_bloc/note_state.dart';
+import 'package:anka_intelligence_app/constant/theme/color.dart';
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/core/widget/top_bar_widget_interval.dart';
+import 'package:anka_intelligence_app/models/note_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/note_bloc/note_bloc.dart';
-import 'package:tobeto_app/api/blocs/note_bloc/note_event.dart';
-import 'package:tobeto_app/api/blocs/note_bloc/note_state.dart';
-import 'package:tobeto_app/constant/theme/color.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/core/widget/top_bar_widget_interval.dart';
-import 'package:tobeto_app/models/note_model.dart';
+
 
 class NotePage extends StatelessWidget {
   const NotePage({Key? key}) : super(key: key);

@@ -1,10 +1,9 @@
-import 'package:anka_intelligence_app/pages/announcement_survey/announcement_survey_page.dart';
 import 'package:anka_intelligence_app/pages/calendar/calendar_page.dart';
 import 'package:anka_intelligence_app/pages/catalog/catalog_page.dart';
 import 'package:anka_intelligence_app/pages/catalog_course/catalog_course_view.dart';
 import 'package:anka_intelligence_app/pages/course/course_view_page.dart';
 import 'package:anka_intelligence_app/pages/curved/curved_button.dart';
-import 'package:anka_intelligence_app/pages/exam_page/exam_page.dart';
+
 import 'package:anka_intelligence_app/pages/forgot/forgot_password_page.dart';
 import 'package:anka_intelligence_app/pages/home/home_page.dart';
 import 'package:anka_intelligence_app/pages/login/login_page.dart';
@@ -12,7 +11,6 @@ import 'package:anka_intelligence_app/pages/note/note_page.dart';
 import 'package:anka_intelligence_app/pages/onboard/onboarding_animation.dart';
 import 'package:anka_intelligence_app/pages/profile/profile_page.dart';
 import 'package:anka_intelligence_app/pages/profile_edit/profile_edit_page.dart';
-import 'package:anka_intelligence_app/pages/quiz/quiz_start_page.dart';
 import 'package:anka_intelligence_app/pages/register/register_page.dart';
 import 'package:anka_intelligence_app/pages/start/login_or_register.dart';
 import 'package:anka_intelligence_app/pages/start/start_page.dart';
@@ -65,9 +63,7 @@ final class AppRoute {
     register: (context) => RegisterPage(),
     note: (context) => const NotePage(),
     start: (context) => const StartPage(),
-    announcement: (context) => const AnnouncementSurveyPage(),
     loginOrRegister: (context) => const LoginOrRegister(),
-    quizStart: (context) => const QuizStartPage(),
-    exam: (context) => const ExamPage(),
+ 
   };
 }
