@@ -1,11 +1,13 @@
+import 'package:anka_intelligence_app/api/blocs/auth_bloc/auth_event.dart';
+import 'package:anka_intelligence_app/api/blocs/auth_bloc/auth_state.dart';
+import 'package:anka_intelligence_app/api/repositories/user_repository.dart';
+import 'package:anka_intelligence_app/models/user_model.dart';
+import 'package:anka_intelligence_app/validation/validation.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/auth_bloc/auth_event.dart';
-import 'package:tobeto_app/api/blocs/auth_bloc/auth_state.dart';
-import 'package:tobeto_app/api/repositories/auth_repository.dart';
-import 'package:tobeto_app/api/repositories/user_repository.dart';
-import 'package:tobeto_app/models/user_model.dart';
-import 'package:tobeto_app/validation/validation.dart';
+
+import '../../repositories/auth_repository.dart';
+
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   final AuthRepository _authRepository;

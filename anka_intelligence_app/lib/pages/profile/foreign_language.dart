@@ -1,10 +1,10 @@
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_state.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/pages/profile/personal_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_state.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
 
-import 'package:tobeto_app/pages/profile/personal_widget.dart';
 
 class ForeignLanguage extends StatelessWidget {
   const ForeignLanguage({Key? key}) : super(key: key);

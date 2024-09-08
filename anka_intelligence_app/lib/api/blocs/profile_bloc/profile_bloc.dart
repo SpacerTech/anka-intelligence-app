@@ -1,9 +1,10 @@
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_event.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_state.dart';
+import 'package:anka_intelligence_app/api/repositories/storage_repository.dart';
+import 'package:anka_intelligence_app/api/repositories/user_repository.dart';
+import 'package:anka_intelligence_app/models/user_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_event.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_state.dart';
-import 'package:tobeto_app/api/repositories/storage_repository.dart';
-import 'package:tobeto_app/api/repositories/user_repository.dart';
-import 'package:tobeto_app/models/user_model.dart';
+
 
 class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
   final UserRepository _userRepository;

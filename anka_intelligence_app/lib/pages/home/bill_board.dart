@@ -1,8 +1,7 @@
 import 'dart:async';
+import 'package:anka_intelligence_app/core/widget/neu_box.dart';
 import 'package:carousel_indicator/carousel_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/neu_box.dart';
-import 'package:tobeto_app/pages/application/application_dialog.dart';
 
 class BillBoard extends StatefulWidget {
   const BillBoard({super.key});
@@ -27,7 +26,6 @@ class _BillBoardState extends State<BillBoard> {
     ),
     Container(
       padding: const EdgeInsets.all(8),
-      child: const ApplicationDialog(),
     ),
     Container(
       decoration: const BoxDecoration(

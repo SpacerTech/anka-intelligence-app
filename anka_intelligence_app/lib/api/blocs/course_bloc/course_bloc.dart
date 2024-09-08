@@ -1,8 +1,9 @@
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_event.dart';
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_state.dart';
+import 'package:anka_intelligence_app/api/repositories/course_repository.dart';
+import 'package:anka_intelligence_app/models/course_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_event.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_state.dart';
-import 'package:tobeto_app/api/repositories/course_repository.dart';
-import 'package:tobeto_app/models/course_model.dart';
+
 
 class CourseBloc extends Bloc<CourseEvent, CourseState> {
   final CourseRepository _courseRepository;

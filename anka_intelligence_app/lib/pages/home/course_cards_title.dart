@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
+
 
 class CourseCardsTitle extends StatelessWidget {
   const CourseCardsTitle({Key? key}) : super(key: key);

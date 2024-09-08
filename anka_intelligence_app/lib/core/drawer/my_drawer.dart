@@ -11,7 +11,6 @@ import 'package:anka_intelligence_app/models/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-
 class MyDrawer extends StatelessWidget {
   MyDrawer({Key? key}) : super(key: key);
   final GlobalKey _adSoyadKey = GlobalKey();

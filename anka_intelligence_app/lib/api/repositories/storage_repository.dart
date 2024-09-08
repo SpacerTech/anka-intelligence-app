@@ -1,10 +1,11 @@
 import 'dart:io';
 
+import 'package:anka_intelligence_app/constant/format/collections.dart';
+import 'package:anka_intelligence_app/models/user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:tobeto_app/constant/format/collections.dart';
-import 'package:tobeto_app/models/user_model.dart';
+
 
 class StorageRepository {
   final FirebaseStorage _firebaseStorage = FirebaseStorage.instance;

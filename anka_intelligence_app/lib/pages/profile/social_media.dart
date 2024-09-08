@@ -1,9 +1,9 @@
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_state.dart';
+import 'package:anka_intelligence_app/core/widget/snackbar_widget.dart';
+import 'package:anka_intelligence_app/pages/profile/personal_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_state.dart';
-import 'package:tobeto_app/core/widget/snackbar_widget.dart';
-import 'package:tobeto_app/pages/profile/personal_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SocialMedia extends StatelessWidget {

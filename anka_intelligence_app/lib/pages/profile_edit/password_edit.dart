@@ -8,6 +8,7 @@ import 'package:anka_intelligence_app/pages/profile_edit/edit_button.dart';
 import 'package:anka_intelligence_app/pages/profile_edit/edit_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:lottie/lottie.dart';
 
 
 class PasswordEdit extends StatelessWidget {

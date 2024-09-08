@@ -1,4 +1,6 @@
-import 'package:tobeto_app/models/classes_model.dart';
+
+
+import 'package:anka_intelligence_app/models/classes_model.dart';
 
 abstract class ClassesState {}
 

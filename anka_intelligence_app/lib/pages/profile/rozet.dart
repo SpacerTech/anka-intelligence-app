@@ -1,5 +1,6 @@
+import 'package:anka_intelligence_app/pages/profile/personal_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/pages/profile/personal_widget.dart';
+
 
 class Rozet extends StatelessWidget {
   const Rozet({Key? key}) : super(key: key);

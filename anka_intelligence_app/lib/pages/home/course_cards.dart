@@ -1,6 +1,6 @@
+import 'package:anka_intelligence_app/core/widget/neu_box.dart';
+import 'package:anka_intelligence_app/models/course_model.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/core/widget/neu_box.dart';
-import 'package:tobeto_app/models/course_model.dart';
 
 class CourseCards extends StatelessWidget {
   const CourseCards({Key? key, required this.course}) : super(key: key);

@@ -1,6 +1,4 @@
 import 'package:anka_intelligence_app/pages/calendar/calendar_page.dart';
-import 'package:anka_intelligence_app/pages/catalog/catalog_page.dart';
-import 'package:anka_intelligence_app/pages/catalog_course/catalog_course_view.dart';
 import 'package:anka_intelligence_app/pages/course/course_view_page.dart';
 import 'package:anka_intelligence_app/pages/curved/curved_button.dart';
 
@@ -55,15 +53,12 @@ final class AppRoute {
     curved: (context) => const CurvedNavBarWidget(),
     viewmore: (context) => const ViewMorePage(),
     course: (context) => const CourseViewPage(),
-    catalogCourse: (context) => const CatalogCourseViewPage(),
     profiledit: (context) => const ProfileEditPage(),
     calendar: (context) => const CalendarPage(),
     forgot: (context) => ForgotPasswordPage(),
-    catalog: (context) => const CatalogPage(),
     register: (context) => RegisterPage(),
     note: (context) => const NotePage(),
     start: (context) => const StartPage(),
     loginOrRegister: (context) => const LoginOrRegister(),
- 
   };
 }

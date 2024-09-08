@@ -3,7 +3,6 @@ import 'package:anka_intelligence_app/models/user_profile_model/education_histor
 import 'package:anka_intelligence_app/models/user_profile_model/language_history.dart';
 import 'package:anka_intelligence_app/models/user_profile_model/social_history.dart';
 import 'package:anka_intelligence_app/models/user_profile_model/work_history.dart';
-import 'package:anka_intelligence_app/pages/profile/certificate.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class UserModel {
@@ -28,7 +27,6 @@ class UserModel {
   List<LanguageHistory>? languageHistory;
   List<SocialHistory>? socialHistory;
   List<String>? favorites;
-  List<Certificate>? certificates;
 
   UserModel({
     this.name,
@@ -52,7 +50,6 @@ class UserModel {
     this.languageHistory,
     this.socialHistory,
     this.favorites,
-    this.certificates,
   });
 
   factory UserModel.fromMap(Map<String, dynamic> map) {
@@ -86,9 +83,6 @@ class UserModel {
           .toList(),
       socialHistory: (map['socialHistory'] as List?)
           ?.map((e) => SocialHistory.fromMap(e as Map<String, dynamic>))
-          .toList(),
-      certificates: (map['certificates'] as List?)
-          ?.map((e) => Certificate.fromMap(e as Map<String, dynamic>))
           .toList(),
       favorites: List<String>.from(map['favorites'] ?? []),
     );
@@ -127,7 +121,6 @@ class UserModel {
       'competenceHistory': competenceHistory?.map((e) => e.toMap()).toList(),
       'languageHistory': languageHistory?.map((e) => e.toMap()).toList(),
       'socialHistory': socialHistory?.map((e) => e.toMap()).toList(),
-      'certificates': certificates?.map((e) => e.toMap()).toList(),
       'favorites': favorites,
     };
   }

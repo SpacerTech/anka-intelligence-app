@@ -1,5 +1,6 @@
+import 'package:anka_intelligence_app/constant/theme/text.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
+
 
 class LoginDivider extends StatelessWidget {
   const LoginDivider({Key? key}) : super(key: key);

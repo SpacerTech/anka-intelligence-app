@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/pages/profile/information.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/pages/profile/information.dart';
+
 
 class ProfileList extends StatelessWidget {
   const ProfileList({Key? key}) : super(key: key);

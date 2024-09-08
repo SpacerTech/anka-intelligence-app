@@ -1,9 +1,11 @@
+import 'package:anka_intelligence_app/api/blocs/calendar_bloc/calendar_event.dart';
+import 'package:anka_intelligence_app/api/blocs/calendar_bloc/calendar_state.dart';
+import 'package:anka_intelligence_app/api/repositories/calendar_repository.dart';
+import 'package:anka_intelligence_app/models/classes_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/calendar_bloc/calendar_event.dart';
-import 'package:tobeto_app/api/blocs/calendar_bloc/calendar_state.dart';
-import 'package:tobeto_app/api/repositories/calendar_repository.dart';
 
-import 'package:tobeto_app/models/classes_model.dart';
+
+
 
 class ClassesBloc extends Bloc<ClassesEvent, ClassesState> {
   final CalendarRepository _classesRepository;

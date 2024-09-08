@@ -1,6 +1,7 @@
+import 'package:anka_intelligence_app/constant/theme/color.dart';
+import 'package:anka_intelligence_app/pages/profile/personal_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/color.dart';
-import 'package:tobeto_app/pages/profile/personal_widget.dart';
+
 
 class ActivityMapWidget extends StatelessWidget {
   const ActivityMapWidget({

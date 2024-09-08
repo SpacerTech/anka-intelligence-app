@@ -1,9 +1,10 @@
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/core/widget/now_bottom.dart';
+import 'package:anka_intelligence_app/pages/login/login_divider.dart';
+import 'package:anka_intelligence_app/pages/login/login_form.dart';
+import 'package:anka_intelligence_app/pages/login/login_page_Square_buttons.dart';
 import 'package:flutter/material.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/pages/login/login_divider.dart';
-import 'package:tobeto_app/pages/login/login_form.dart';
-import 'package:tobeto_app/pages/login/login_page_Square_buttons.dart';
-import 'package:tobeto_app/core/widget/now_bottom.dart';
+
 
 class LoginPage extends StatelessWidget {
   LoginPage({Key? key, this.onTap}) : super(key: key);

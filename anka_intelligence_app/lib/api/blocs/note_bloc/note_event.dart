@@ -1,4 +1,6 @@
-import 'package:tobeto_app/models/note_model.dart';
+
+
+import '../../../models/note_model.dart';
 
 abstract class NoteEvent {}
 

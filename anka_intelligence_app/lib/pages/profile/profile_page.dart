@@ -1,25 +1,25 @@
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_event.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_state.dart';
+import 'package:anka_intelligence_app/constant/format/date_formatter.dart';
+import 'package:anka_intelligence_app/constant/theme/color.dart';
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/constant/theme/text.dart';
+import 'package:anka_intelligence_app/constant/theme/text_theme.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/core/widget/top_bar_widget_interval.dart';
+import 'package:anka_intelligence_app/models/user_model.dart';
+import 'package:anka_intelligence_app/pages/profile/about.dart';
+import 'package:anka_intelligence_app/pages/profile/activity_map.dart';
+import 'package:anka_intelligence_app/pages/profile/competence.dart';
+import 'package:anka_intelligence_app/pages/profile/education.dart';
+import 'package:anka_intelligence_app/pages/profile/foreign_language.dart';
+import 'package:anka_intelligence_app/pages/profile/rozet.dart';
+import 'package:anka_intelligence_app/pages/profile/work.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_event.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_state.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/constant/format/date_formatter.dart';
-import 'package:tobeto_app/constant/theme/color.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/constant/theme/text.dart';
-import 'package:tobeto_app/constant/theme/text_theme.dart';
-import 'package:tobeto_app/core/widget/top_bar_widget_interval.dart';
-import 'package:tobeto_app/models/user_model.dart';
-import 'package:tobeto_app/pages/profile/about.dart';
-import 'package:tobeto_app/pages/profile/certificate.dart';
-import 'package:tobeto_app/pages/profile/competence.dart';
-import 'package:tobeto_app/pages/profile/education.dart';
-import 'package:tobeto_app/pages/profile/work.dart';
-import 'package:tobeto_app/pages/profile/foreign_language.dart';
-import 'package:tobeto_app/pages/profile/social_media.dart';
-import 'package:tobeto_app/pages/profile/activity_map.dart';
-import 'package:tobeto_app/pages/profile/rozet.dart';
+
+import 'social_media.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -152,7 +152,6 @@ class _ProfilePageState extends State<ProfilePage> {
                               const Work(),
                               const Competence(),
                               const ForeignLanguage(),
-                              const Certificate(),
                               const Rozet(),
                               const SocialMedia(),
                             ],

@@ -1,6 +1,6 @@
+import 'package:anka_intelligence_app/constant/format/collections.dart';
+import 'package:anka_intelligence_app/models/classes_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:tobeto_app/constant/format/collections.dart';
-import 'package:tobeto_app/models/classes_model.dart';
 
 class CalendarRepository {
   Future<List<Classes>> getClasses() async {

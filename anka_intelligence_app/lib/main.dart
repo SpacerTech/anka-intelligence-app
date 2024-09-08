@@ -17,23 +17,20 @@ Future<void> main() async {
 
 final navigatorKey = GlobalKey<NavigatorState>();
 
-class MyApp extends StatelessWidget {
+@immutable
+final class MyApp extends StatelessWidget {
   final bool? onboardingCompleted;
-  const MyApp({Key? key, this.onboardingCompleted}) : super(key: key);
+  const MyApp({super.key, this.onboardingCompleted});
 
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
-      providers: [
+      providers: <BlocProvider>[
         authBlocProvider,
         profileBlocProvider,
         courseBlocProvider,
-        catalogBlocProvider,
         classesBlocProvider,
-        examBlocProvider,
-        applicationBlocProvider,
-        noteBlocProvider,
-        announcementBlocProvider
+        noteBlocProvider
       ],
       child: MaterialApp(
         navigatorKey: navigatorKey,

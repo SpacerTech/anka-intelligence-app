@@ -1,22 +1,24 @@
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_bloc.dart';
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_event.dart';
+import 'package:anka_intelligence_app/api/blocs/course_bloc/course_state.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_event.dart';
+import 'package:anka_intelligence_app/api/blocs/profile_bloc/profile_state.dart';
+import 'package:anka_intelligence_app/constant/theme/image.dart';
+import 'package:anka_intelligence_app/core/drawer/my_advanced_drawer.dart';
+import 'package:anka_intelligence_app/core/drawer/my_appbar.dart';
+import 'package:anka_intelligence_app/core/drawer/my_drawer.dart';
+import 'package:anka_intelligence_app/core/widget/background_image.dart';
+import 'package:anka_intelligence_app/models/course_model.dart';
+import 'package:anka_intelligence_app/pages/home/course_cards.dart';
+import 'package:anka_intelligence_app/pages/home/course_cards_title.dart';
+import 'package:anka_intelligence_app/pages/home/home_header.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_bloc.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_event.dart';
-import 'package:tobeto_app/api/blocs/course_bloc/course_state.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_bloc.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_event.dart';
-import 'package:tobeto_app/api/blocs/profile_bloc/profile_state.dart';
-import 'package:tobeto_app/core/widget/background_image.dart';
-import 'package:tobeto_app/core/drawer/my_advanced_drawer.dart';
-import 'package:tobeto_app/core/drawer/my_appbar.dart';
-import 'package:tobeto_app/core/drawer/my_drawer.dart';
-import 'package:tobeto_app/constant/theme/image.dart';
-import 'package:tobeto_app/models/course_model.dart';
-import 'package:tobeto_app/pages/home/course_cards.dart';
-import 'package:tobeto_app/pages/home/home_header.dart';
-import 'package:tobeto_app/pages/home/course_cards_title.dart';
-import 'package:tobeto_app/pages/home/bill_board.dart';
+
+import '../../api/blocs/profile_bloc/profile_bloc.dart';
+import 'bill_board.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
