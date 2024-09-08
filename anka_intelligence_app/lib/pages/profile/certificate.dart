@@ -68,4 +68,6 @@ class Certificate extends StatelessWidget {
       },
     );
   }
+
+  static fromMap(Map<String, dynamic> e) {}
 }

@@ -1,3 +1,6 @@
+import 'package:anka_intelligence_app/configuration/providers/providers.dart';
+import 'package:anka_intelligence_app/configuration/routes/app_routes.dart';
+import 'package:anka_intelligence_app/constant/theme/theme.dart';
 import 'package:anka_intelligence_app/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
