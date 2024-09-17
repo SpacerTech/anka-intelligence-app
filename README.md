@@ -14,18 +14,6 @@ Bu proje, genç girişimcileri startup kültürüyle tanıştırmak ve onları g
 
 
 
-## UI Gösterimi
-
-<img width="500" alt="login page" src= "https://github.com/user-attachments/assets/215ba0c2-d408-40ac-aae5-18a828975a82"><br/>
-
-<img width="500" alt="login page" src= "https://github.com/user-attachments/assets/096b12ec-7ac8-4dc1-85c8-bbaa9e5a59ac"><br/>
-
-
-
-
-
-
-
 ## Kısa Bir Bakış
 Öğrencilerin yenilikçi fikirlerini hayata geçirmelerini, yatırımcılarla bağlantı kurmalarını ve ödüller kazanmalarını sağlar.
 ## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
